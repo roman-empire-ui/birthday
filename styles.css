@@ -1,0 +1,67 @@
+h1,h1,h4,p {
+    text-shadow : 10px 10px 20px yellow
+}
+
+body  {
+    text-align : center;
+    font-family: "Dancing Script", cursive;
+    background :#8a06e2c5;
+    text-shadow: 7px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#psychopath-img {
+    width : 200px;
+    border-radius : 50px;
+    border : 2px solid pink;
+    
+   
+} 
+
+.audio{
+    margin-top: 30px;
+}
+
+#header {
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+} 
+
+.gift {
+    margin-top : 30px;
+}
+.gift-image {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("images/giftbox.jpg");
+    background-size: cover;
+}
+
+#gift-img-wishes:hover{
+    background-image: url('images/bday-361.gif');
+    background-size : cover;
+    height: 500px;
+} 
+
+#gift-img-peace:hover{
+    background-image : url('images/kav.jpg');
+    background-size :cover;
+    height : 500px;
+} 
+
+#gift-img-psycho:hover {
+    background-image : url('images/mob.webp');
+    background-size : cover;
+}
+
+#gift-img-flowers:hover{
+    background-image: url('images/flowers.gif');
+    background-size : cover;
+    height : 500px;
+}
